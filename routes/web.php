@@ -1,7 +1,10 @@
 <?php
 
+use App\Http\Controllers\MainController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     echo "Ola mundo";
 });
+
+Route::get('/mostra-dados', [MainController::class, 'mostraDados']);

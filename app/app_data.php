@@ -1,6 +1,6 @@
 <?php
 
-$countries_and_capitals = [
+return [
     [
         'country' => 'Afeganistão',
         'capital' => 'Cabul'

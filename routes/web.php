@@ -3,8 +3,6 @@
 use App\Http\Controllers\MainController;
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {
-    echo "Ola mundo";
-});
+Route::view('/','home');
 
 Route::get('/mostra-dados', [MainController::class, 'mostraDados']);
